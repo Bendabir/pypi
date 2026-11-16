@@ -7,7 +7,7 @@ mkdir -p simple
 touch simple/index.html
 
 # Indices for CUDA
-for V in 92 101 102 110 111 113 115 116 117 118 121 124; do
-    mkdir -p "cu$V"
-    touch "cu$V/index.html"
+for V in 116 117 118 121 124 126 128 130 132 134; do
+  mkdir -p "cu$V"
+  touch "cu$V/index.html"
 done
